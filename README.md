@@ -259,14 +259,33 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * Added: Refactored code for the whole framework
 * Removed: Old code from the whole framework
 
-### 0.963a (planned for 11th April 2018 as "legacy support" release)
+### 0.963a (10th April 2018 as "legacy support" release)
 * Added: Action to raise/lower object while building. Thanks to [darrell-aevum](https://github.com/darrell-aevum)
-* Added: 2 RHS mag classnames to arsenal allowed extension list. Thanks to [madpat3](https://github.com/madpat3)
+* Added: Some classnames to arsenal allowed extension list. Thanks to [madpat3](https://github.com/madpat3)
 * Added: Functionality to save/load mission parameters. Thanks to [veteran29](https://github.com/veteran29)
 * Added: Presets for: RDS Civilians, Project OPFOR SLA and Project OPFOR RACS. Thanks to [PSYKO-nz](https://github.com/PSYKO-nz)
 * Added: Automatic mission pbo build tool (available on GitHub). Thanks to [Dahlgren](https://github.com/Dahlgren) and [veteran29](https://github.com/veteran29)
 * Added: Tanks DLC classnames for presets.
+* Added: Group diag output for serverlog.
+* Added: Debug output for group count and amount of active scripts. Liberation starts with [13,70,0,1] and may rise to [70,70,0,1].
+* Added: Notification for incoming guerilla forces when attacking a sector.
+* Added: Vehicle chance for guerilla forces who approach a sector.
+* Added: Traditional Chinese localization. Thanks to [KOEI5113](https://github.com/KOEI5113)
+* Removed: Some old scripts which aren't needed anymore.
+* Removed: Always no fog.
+* Tweaked: All `spawn compileFinal preprocessFileLineNumbers` replaced with `execVM`.
+* Tweaked: All `createGroup` now with activated `deleteWhenEmpty`.
+* Tweaked: All `BIS_fnc_relPos` replaced with `getPos`.
+* Tweaked: Guerilla forces event chances, strength gain values and unit amounts.
+* Tweaked: The Commander / Admin can now change the permissions of offline players.
+* Tweaked: BI Revive is now automatically deactivated if ACE Medical is loaded.
+* Tweaked: FPS map marker is now below the map and also shows count of local groups.
+* Tweaked: Overview picture for loading and mission selection screen.
 * Fixed: Placement of buildings after save/load. Thanks to [Cre8or](https://github.com/Cre8or)
+* Fixed: Sometimes helicopters exploded when spawning on the deck of the USS Freedom.
+* Fixed: Players couldn't ziptie the civilian informant, if playing with ACE.
+* Fixed: File name instead of mission name in mission selection screen.
+* Fixed: "Taking Command" spam from AI after players death.
 
 ### 0.963 (05th January 2018)
 * Added: Some missing RHS vehicles for the ACE medical system.
