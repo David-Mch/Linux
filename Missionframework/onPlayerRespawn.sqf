@@ -2,7 +2,7 @@
 	KP LIBERATION RESPAWN EVENTHANDLING FILE
 	
 	File: onPlayerRespawn.sqf
-	Author: Wyqer - https://github.com/Wyqer
+	Author: KP Liberation Dev Team - https://github.com/KillahPotatoes
 	Date: 2017-10-16
 	Last Update: 2018-03-28
 	License: GNU General Public License v3.0 - https://www.gnu.org/licenses/gpl-3.0.html

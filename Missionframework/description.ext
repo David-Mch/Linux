@@ -2,7 +2,7 @@
 	KP LIBERATION DESCRIPTION FILE
 	
 	File: description.ext
-	Author: Wyqer - https://github.com/Wyqer
+	Author: KP Liberation Dev Team - https://github.com/KillahPotatoes
 	Date: 2017-10-16
 	Last Update: 2018-01-05
 	License: GNU General Public License v3.0 - https://www.gnu.org/licenses/gpl-3.0.html
@@ -12,12 +12,14 @@
 	This overrides corresponding settings which are made in the sqm via eden editor.
 */
 
-author = "[KP] Wyqer";
+briefingName = $STR_MISSION_TITLE;
+overviewText = "www.killahpotatoes.de";
+overviewPicture = "res\lib.paa";
+author = "KP Liberation Dev Team";
 onLoadName = $STR_MISSION_TITLE;
 onLoadMission = "www.killahpotatoes.de";
-briefingName = $STR_MISSION_TITLE;
-loadScreen = "res\liberation.jpg";
-overviewText = $STR_MISSION_DESCRIPTION;
+loadScreen = "res\lib.paa";
+
 class Header {
 	gameType = "CTI";
 	minPlayers = 1;

@@ -2,7 +2,7 @@
 	KP Liberation intro menu defines
 	
 	File: KPLIB_introMenu.hpp
-	Author: Wyqer - https://github.com/Wyqer
+	Author: KP Liberation Dev Team - https://github.com/KillahPotatoes
 	Date: 2017-10-28
 	Last Update: 2018-03-28
 	License: GNU General Public License v3.0 - https://www.gnu.org/licenses/gpl-3.0.html

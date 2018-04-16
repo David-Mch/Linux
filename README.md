@@ -228,7 +228,7 @@ class Missions
 [![Gameplay](http://img.youtube.com/vi/ULSxjp8cIUM/0.jpg)](https://www.youtube.com/watch?v=ULSxjp8cIUM)
 
 ## License
-Copyright (C) 2017 [Wyqer](https://github.com/Wyqer)
+Copyright (C) 2017 [Killah Potatoes Gaming Community](https://github.com/KillahPotatoes)
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
